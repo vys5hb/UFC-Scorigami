@@ -3,6 +3,7 @@ import pandas as pd
 import dash
 from dash import dcc, html, dash_table
 from dash.dependencies import Input, Output
+import os
 
 # Connect to the database
 conn = sqlite3.connect('ufc_scorigami.db')
@@ -73,4 +74,5 @@ app.layout = html.Div([
 ])
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    port = int(os.environ.get('PORT', 8080))  # Default to 8080 if PORT is not set
+    app.run_server(debug=True, host='0.0.0.0', port=port)
