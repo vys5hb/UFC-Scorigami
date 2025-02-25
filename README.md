@@ -9,7 +9,7 @@ By: Ethan Ooi
 *This site may take ~50s to load if inactive due to free-tier hosting on Render.*
 
 ## Data
-This repository contains all the code and data used for the project. A web scraper for [UFC Fights](http://ufcstats.com/statistics/events/completed) can be found in `ufcstatswebscraper.ipynb`. This will provide you with `ufcfights.csv` which I use in `create_ufc_fights.sql` to create a refined database for Python manipulation and analysis. The rest of the code for finding all the unique fight-ending times and the creation of the interactive Dash table is in `UFCgami.py`.
+This repository contains all the code and data used for the project. A web scraper for [UFC Fights](http://ufcstats.com/statistics/events/completed) can be found in [ufcstatswebscraper.ipynb](ufcstatswebscraper.ipynb). This will provide you with [ufcfights.csv](ufcfights.csv) which I use in [create_ufc_fights.sql](create_ufc_fights.sql) to create a refined database for Python manipulation and analysis. The rest of the code for finding all the unique fight-ending times and the creation of the interactive Dash table is in [UFCgami.py](UFCgami.py).
 
 ## Key Findings
 The **interactive table** has every specific time, but these are some general takeaways. 
