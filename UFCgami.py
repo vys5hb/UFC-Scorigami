@@ -45,7 +45,7 @@ app = dash.Dash(__name__)
 app.layout = html.Div([
     html.H3(
         "UFC Scorigami: Fight Ending Times",
-        style={'color': 'white', 'textAlign': 'center', 'fontWeight': 'bold'}
+        style={'color': 'black', 'textAlign': 'center', 'fontWeight': 'bold'}
     ),
     dash_table.DataTable(
         id='scorigami-table',
