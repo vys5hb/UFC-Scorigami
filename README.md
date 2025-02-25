@@ -5,6 +5,7 @@ By: Ethan Ooi
 
 ## Interactive Table
 [UFCGami on Render](https://ufcgami-1.onrender.com) 
+
 *This site may take ~50s to load if inactive.*
 
 ## Data
@@ -13,6 +14,6 @@ This repository contains all the code and data used for the project. A web scrap
 ## Key Findings
 The **interactive table** has every specific time, but there are some general takeaways. 
 
-The earliest finish in UFC history at 0:05 in the first round.
-
-We can see that there are many 
+- The earliest finish in UFC history at 0:05 in the 1st round.
+- We can see that there are many missing values in the 4th and 5th round. This is because UFC fights are generally 3 rounds, with the exception of **ALL** title fights, Fight Night main events, and a few other co-main or special fights, where these fights are 5 rounds.
+- Outside of the first 4 seconds of the 1st round, there has been a stoppage in every other second of the 1st round.
