@@ -4,7 +4,7 @@ By: Ethan Ooi
 **UFC Scorigami** is an analytical model that tracks fight-ending times in UFC history, inspired by NFL Scorigami. It provides an **interactive table** where users can explore every unique fight-ending time ranging from UFC 1 to UFC Fight Night: Cejudo vs. Song.
 
 ## Interactive Table
- 
+[UFCgami on Render](https://ufcgami-1.onrender.com/)
 
 *This site may take ~50s to load if inactive due to free-tier hosting on Render.*
 
